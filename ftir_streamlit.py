@@ -78,7 +78,7 @@ if uploaded_files:
         area_results.append((file.name, area))
 
         # --- Bokeh plot ---
-        fig = figure(title=file.name, width=700, height=300, x_axis_label="Wavenumber", y_axis_label="Absorbance")
+        fig = figure(title=file.name[:-4], width=700, height=300, x_axis_label="Wavenumber", y_axis_label="Absorbance")
         fig.line(wn, absorbance, line_width=2, color="#CCCCCC", legend_label=file.name+' original')
         fig.line(wn, baseline, line_dash='dotted', color='gray', legend_label="Baseline")
         fig.line(wn, corrected, line_width=2, color=palette[idx % 10], legend_label=file.name+' corrected')
