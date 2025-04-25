@@ -15,6 +15,6 @@ Works with Python 3.10.6!
 2. Run the app
 
    ```
-   $ streamlit run ftir_streamlit_app.py
+   $ streamlit run ftir_streamlit.py
    ```
 
