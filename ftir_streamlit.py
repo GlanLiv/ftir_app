@@ -170,7 +170,7 @@ if uploaded_analyt and len(area_results) >= 3:
 
         for name, area in analyte_areas:
             conc = (area - intercept) / slope
-            calib_plot.square([conc], [area], size=12, color="red", legend_label=f"{name}")
+            calib_plot.square([conc], [area], size=12, color="red", legend_label="Analyte")
 
         calib_plot.legend.location = "top_left"
         calib_plot.legend.label_text_font_size = "10pt"
