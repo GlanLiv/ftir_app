@@ -9,7 +9,7 @@ Works with Python 3.10.6!
 1. Install the requirements
 
    ```
-   $ pip install -r ftir_requirements.txt
+   $ pip install -r requirements.txt
    ```
 
 2. Run the app
